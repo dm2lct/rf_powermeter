@@ -1,0 +1,1698 @@
+EESchema Schematic File Version 4
+LIBS:VHF_PowerMeter-cache
+EELAYER 26 0
+EELAYER END
+$Descr A3 16535 11693
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L VHF_PowerMeter-rescue:AD8302ARUZ-SamacSys_Parts IC1
+U 1 1 5BE62332
+P 7150 6250
+F 0 "IC1" H 7750 6515 50  0000 C CNN
+F 1 "AD8302ARUZ" H 7750 6424 50  0000 C CNN
+F 2 "Package_SO:TSSOP-14_4.4x5mm_P0.65mm" H 8200 6350 50  0001 L CNN
+F 3 "https://componentsearchengine.com/Datasheets/1/AD8302ARUZ.pdf" H 8200 6250 50  0001 L CNN
+F 4 "AD8302ARUZ, RF Amplifier, 14-Pin TSSOP" H 8200 6150 50  0001 L CNN "Description"
+F 5 "1.2" H 8200 6050 50  0001 L CNN "Height"
+F 6 "584-AD8302ARUZ" H 8200 5950 50  0001 L CNN "Mouser Part Number"
+F 7 "Analog Devices" H 8200 5850 50  0001 L CNN "Manufacturer_Name"
+F 8 "AD8302ARUZ" H 8200 5750 50  0001 L CNN "Manufacturer_Part_Number"
+	1    7150 6250
+	1    0    0    -1  
+$EndComp
+$Comp
+L VHF_PowerMeter-rescue:Conn_Coaxial-Connector J1
+U 1 1 5BE6279B
+P 2700 5450
+F 0 "J1" H 2630 5688 50  0000 C CNN
+F 1 "Conn_Coaxial" H 2630 5597 50  0000 C CNN
+F 2 "Connector_Coaxial:SMA_Molex_73251-1153_EdgeMount_Horizontal" H 2700 5450 50  0001 C CNN
+F 3 " ~" H 2700 5450 50  0001 C CNN
+	1    2700 5450
+	-1   0    0    -1  
+$EndComp
+$Comp
+L VHF_PowerMeter-rescue:C_Small-Device C4
+U 1 1 5BE62A19
+P 6950 6550
+F 0 "C4" H 7042 6596 50  0000 L CNN
+F 1 "100nF" H 7042 6505 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 6950 6550 50  0001 C CNN
+F 3 "~" H 6950 6550 50  0001 C CNN
+F 4 "C0603C104Z3VACTU" H 6950 6550 50  0001 C CNN "manf#"
+F 5 "KEM Y5V0603 100N" H 6950 6550 50  0001 C CNN "reichelt"
+	1    6950 6550
+	0    -1   -1   0   
+$EndComp
+$Comp
+L VHF_PowerMeter-rescue:GND-power #PWR016
+U 1 1 5BE62AFE
+P 7050 6850
+F 0 "#PWR016" H 7050 6600 50  0001 C CNN
+F 1 "GND" V 7055 6722 50  0000 R CNN
+F 2 "" H 7050 6850 50  0001 C CNN
+F 3 "" H 7050 6850 50  0001 C CNN
+	1    7050 6850
+	0    1    1    0   
+$EndComp
+$Comp
+L VHF_PowerMeter-rescue:Ferrite_Bead_Small-Device FB2
+U 1 1 5BE62B4D
+P 7350 5350
+F 0 "FB2" H 7450 5396 50  0000 L CNN
+F 1 "Ferrite_Bead_Small" H 7450 5305 50  0000 L CNN
+F 2 "Inductor_SMD:L_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 7280 5350 50  0001 C CNN
+F 3 "~" H 7350 5350 50  0001 C CNN
+	1    7350 5350
+	1    0    0    -1  
+$EndComp
+$Comp
+L VHF_PowerMeter-rescue:C_Small-Device C2
+U 1 1 5BE62BB5
+P 6950 6350
+F 0 "C2" V 6721 6350 50  0000 C CNN
+F 1 "1n" V 6900 6250 50  0000 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 6950 6350 50  0001 C CNN
+F 3 "~" H 6950 6350 50  0001 C CNN
+F 4 "C0603C102J5GACTU" V 6950 6350 50  0001 C CNN "manf#"
+F 5 "KEM C0G0603 1,0N" V 6950 6350 50  0001 C CNN "Reichelt"
+	1    6950 6350
+	0    1    1    0   
+$EndComp
+$Comp
+L VHF_PowerMeter-rescue:C_Small-Device C3
+U 1 1 5BE62C7A
+P 6950 6450
+F 0 "C3" V 6900 6100 50  0000 C CNN
+F 1 "1n" V 6950 6200 50  0000 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 6950 6450 50  0001 C CNN
+F 3 "~" H 6950 6450 50  0001 C CNN
+F 4 "C0603C102J5GACTU" V 6950 6450 50  0001 C CNN "manf#"
+F 5 "KEM C0G0603 1,0N" V 6950 6450 50  0001 C CNN "reichelt"
+	1    6950 6450
+	0    1    1    0   
+$EndComp
+$Comp
+L VHF_PowerMeter-rescue:C_Small-Device C5
+U 1 1 5BE62CAE
+P 6950 6650
+F 0 "C5" V 6721 6650 50  0000 C CNN
+F 1 "1n" V 6812 6650 50  0000 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 6950 6650 50  0001 C CNN
+F 3 "~" H 6950 6650 50  0001 C CNN
+F 4 "C0603C102J5GACTU" V 6950 6650 50  0001 C CNN "manf#"
+F 5 "KEM C0G0603 1,0N" V 6950 6650 50  0001 C CNN "reichelt"
+	1    6950 6650
+	0    1    1    0   
+$EndComp
+$Comp
+L VHF_PowerMeter-rescue:C_Small-Device C6
+U 1 1 5BE62CD4
+P 6950 6750
+F 0 "C6" V 6721 6750 50  0000 C CNN
+F 1 "C_Small" V 6812 6750 50  0000 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 6950 6750 50  0001 C CNN
+F 3 "~" H 6950 6750 50  0001 C CNN
+F 4 "C0603C102J5GACTU" V 6950 6750 50  0001 C CNN "manf#"
+F 5 "KEM C0G0603 1,0N" V 6950 6750 50  0001 C CNN "reichelt"
+	1    6950 6750
+	0    1    1    0   
+$EndComp
+$Comp
+L VHF_PowerMeter-rescue:Ferrite_Bead_Small-Device FB1
+U 1 1 5BE62D40
+P 7100 5700
+F 0 "FB1" H 7200 5746 50  0000 L CNN
+F 1 "Ferrite_Bead_Small" H 7200 5655 50  0000 L CNN
+F 2 "Inductor_SMD:L_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 7030 5700 50  0001 C CNN
+F 3 "~" H 7100 5700 50  0001 C CNN
+	1    7100 5700
+	1    0    0    -1  
+$EndComp
+$Comp
+L VHF_PowerMeter-rescue:GND-power #PWR015
+U 1 1 5BE62E6A
+P 7050 6250
+F 0 "#PWR015" H 7050 6000 50  0001 C CNN
+F 1 "GND" V 7050 6100 50  0000 R CNN
+F 2 "" H 7050 6250 50  0001 C CNN
+F 3 "" H 7050 6250 50  0001 C CNN
+	1    7050 6250
+	0    1    1    0   
+$EndComp
+$Comp
+L VHF_PowerMeter-rescue:R_Small-Device R4
+U 1 1 5BE63042
+P 4400 6950
+F 0 "R4" H 4341 6904 50  0000 R CNN
+F 1 "R_Small" H 4341 6995 50  0000 R CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 4400 6950 50  0001 C CNN
+F 3 "~" H 4400 6950 50  0001 C CNN
+	1    4400 6950
+	-1   0    0    1   
+$EndComp
+$Comp
+L VHF_PowerMeter-rescue:R_Small-Device R6
+U 1 1 5BE6308E
+P 4600 6750
+F 0 "R6" V 4404 6750 50  0000 C CNN
+F 1 "R_Small" V 4495 6750 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 4600 6750 50  0001 C CNN
+F 3 "~" H 4600 6750 50  0001 C CNN
+	1    4600 6750
+	0    1    1    0   
+$EndComp
+$Comp
+L VHF_PowerMeter-rescue:R_Small-Device R2
+U 1 1 5BE630CC
+P 4200 6750
+F 0 "R2" V 4004 6750 50  0000 C CNN
+F 1 "R_Small" V 4095 6750 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 4200 6750 50  0001 C CNN
+F 3 "~" H 4200 6750 50  0001 C CNN
+	1    4200 6750
+	0    1    1    0   
+$EndComp
+$Comp
+L VHF_PowerMeter-rescue:GND-power #PWR07
+U 1 1 5BE6311A
+P 4400 7050
+F 0 "#PWR07" H 4400 6800 50  0001 C CNN
+F 1 "GND" H 4405 6877 50  0000 C CNN
+F 2 "" H 4400 7050 50  0001 C CNN
+F 3 "" H 4400 7050 50  0001 C CNN
+	1    4400 7050
+	1    0    0    -1  
+$EndComp
+$Comp
+L VHF_PowerMeter-rescue:C_Small-Device C9
+U 1 1 5BE631FC
+P 7350 5850
+F 0 "C9" H 7442 5896 50  0000 L CNN
+F 1 "C_Small" H 7442 5805 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 7350 5850 50  0001 C CNN
+F 3 "~" H 7350 5850 50  0001 C CNN
+	1    7350 5850
+	1    0    0    -1  
+$EndComp
+$Comp
+L VHF_PowerMeter-rescue:GND-power #PWR019
+U 1 1 5BE63254
+P 7350 5950
+F 0 "#PWR019" H 7350 5700 50  0001 C CNN
+F 1 "GND" H 7355 5777 50  0000 C CNN
+F 2 "" H 7350 5950 50  0001 C CNN
+F 3 "" H 7350 5950 50  0001 C CNN
+	1    7350 5950
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7050 6350 7150 6350
+Wire Wire Line
+	7050 6250 7150 6250
+Wire Wire Line
+	7050 6450 7150 6450
+$Comp
+L VHF_PowerMeter-rescue:GND-power #PWR012
+U 1 1 5BE63444
+P 6750 6550
+F 0 "#PWR012" H 6750 6300 50  0001 C CNN
+F 1 "GND" V 6755 6422 50  0000 R CNN
+F 2 "" H 6750 6550 50  0001 C CNN
+F 3 "" H 6750 6550 50  0001 C CNN
+	1    6750 6550
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	6850 6450 6750 6450
+Wire Wire Line
+	6750 6450 6750 6550
+Wire Wire Line
+	6850 6650 6750 6650
+Wire Wire Line
+	6750 6650 6750 6550
+Connection ~ 6750 6550
+Wire Wire Line
+	7050 6650 7150 6650
+Wire Wire Line
+	7050 6750 7150 6750
+Wire Wire Line
+	7050 6850 7150 6850
+Wire Wire Line
+	7050 6550 7100 6550
+Wire Wire Line
+	6850 6550 6750 6550
+Wire Wire Line
+	7100 5800 7100 6550
+Connection ~ 7100 6550
+Wire Wire Line
+	7100 6550 7150 6550
+Wire Wire Line
+	7100 5600 7350 5600
+Wire Wire Line
+	7350 5600 7350 5450
+Wire Wire Line
+	7350 5750 7350 5600
+Connection ~ 7350 5600
+Wire Wire Line
+	4300 6750 4400 6750
+Wire Wire Line
+	4400 6750 4400 6850
+Wire Wire Line
+	4400 6750 4500 6750
+Connection ~ 4400 6750
+$Comp
+L VHF_PowerMeter-rescue:Conn_Coaxial-Connector J2
+U 1 1 5BE6517B
+P 2700 6750
+F 0 "J2" H 2630 6988 50  0000 C CNN
+F 1 "Conn_Coaxial" H 2630 6897 50  0000 C CNN
+F 2 "Connector_Coaxial:SMA_Molex_73251-1153_EdgeMount_Horizontal" H 2700 6750 50  0001 C CNN
+F 3 " ~" H 2700 6750 50  0001 C CNN
+	1    2700 6750
+	-1   0    0    -1  
+$EndComp
+$Comp
+L VHF_PowerMeter-rescue:GND-power #PWR02
+U 1 1 5BE65281
+P 2700 6950
+F 0 "#PWR02" H 2700 6700 50  0001 C CNN
+F 1 "GND" H 2705 6777 50  0000 C CNN
+F 2 "" H 2700 6950 50  0001 C CNN
+F 3 "" H 2700 6950 50  0001 C CNN
+	1    2700 6950
+	1    0    0    -1  
+$EndComp
+$Comp
+L VHF_PowerMeter-rescue:GND-power #PWR01
+U 1 1 5BE652B2
+P 2700 5650
+F 0 "#PWR01" H 2700 5400 50  0001 C CNN
+F 1 "GND" H 2705 5477 50  0000 C CNN
+F 2 "" H 2700 5650 50  0001 C CNN
+F 3 "" H 2700 5650 50  0001 C CNN
+	1    2700 5650
+	1    0    0    -1  
+$EndComp
+$Comp
+L VHF_PowerMeter-rescue:C_Small-Device C10
+U 1 1 5BE65A74
+P 8450 6250
+F 0 "C10" V 8221 6250 50  0000 C CNN
+F 1 "C_Small" V 8312 6250 50  0000 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 8450 6250 50  0001 C CNN
+F 3 "~" H 8450 6250 50  0001 C CNN
+	1    8450 6250
+	0    1    1    0   
+$EndComp
+$Comp
+L VHF_PowerMeter-rescue:C_Small-Device C11
+U 1 1 5BE65B95
+P 8450 6850
+F 0 "C11" V 8221 6850 50  0000 C CNN
+F 1 "C_Small" V 8312 6850 50  0000 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 8450 6850 50  0001 C CNN
+F 3 "~" H 8450 6850 50  0001 C CNN
+	1    8450 6850
+	0    1    1    0   
+$EndComp
+$Comp
+L VHF_PowerMeter-rescue:R_Small-Device R14
+U 1 1 5BE65C24
+P 8900 6350
+F 0 "R14" V 8704 6350 50  0000 C CNN
+F 1 "R_Small" V 8795 6350 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 8900 6350 50  0001 C CNN
+F 3 "~" H 8900 6350 50  0001 C CNN
+	1    8900 6350
+	0    1    1    0   
+$EndComp
+$Comp
+L VHF_PowerMeter-rescue:R_Small-Device R15
+U 1 1 5BE65D12
+P 8900 6750
+F 0 "R15" V 8704 6750 50  0000 C CNN
+F 1 "R_Small" V 8795 6750 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 8900 6750 50  0001 C CNN
+F 3 "~" H 8900 6750 50  0001 C CNN
+	1    8900 6750
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	8800 6350 8450 6350
+Wire Wire Line
+	8350 6450 8450 6450
+Wire Wire Line
+	8450 6450 8450 6350
+Connection ~ 8450 6350
+Wire Wire Line
+	8450 6350 8350 6350
+Wire Wire Line
+	8350 6750 8450 6750
+Wire Wire Line
+	8350 6650 8450 6650
+Wire Wire Line
+	8450 6650 8450 6750
+Connection ~ 8450 6750
+Wire Wire Line
+	8450 6750 8800 6750
+$Comp
+L VHF_PowerMeter-rescue:GND-power #PWR021
+U 1 1 5BE66D9A
+P 8550 6250
+F 0 "#PWR021" H 8550 6000 50  0001 C CNN
+F 1 "GND" V 8555 6122 50  0000 R CNN
+F 2 "" H 8550 6250 50  0001 C CNN
+F 3 "" H 8550 6250 50  0001 C CNN
+	1    8550 6250
+	0    -1   -1   0   
+$EndComp
+$Comp
+L VHF_PowerMeter-rescue:GND-power #PWR022
+U 1 1 5BE66E38
+P 8550 6850
+F 0 "#PWR022" H 8550 6600 50  0001 C CNN
+F 1 "GND" V 8555 6722 50  0000 R CNN
+F 2 "" H 8550 6850 50  0001 C CNN
+F 3 "" H 8550 6850 50  0001 C CNN
+	1    8550 6850
+	0    -1   -1   0   
+$EndComp
+$Comp
+L VHF_PowerMeter-rescue:Arduino_Nano_v3.x-MCU_Module A1
+U 1 1 5BE671C6
+P 10600 6600
+F 0 "A1" H 10600 5514 50  0000 C CNN
+F 1 "Arduino_Nano_v3.x" H 10600 5423 50  0000 C CNN
+F 2 "Module:Arduino_Nano" H 10750 5650 50  0001 L CNN
+F 3 "http://www.mouser.com/pdfdocs/Gravitech_Arduino_Nano3_0.pdf" H 10600 5600 50  0001 C CNN
+	1    10600 6600
+	-1   0    0    -1  
+$EndComp
+$Comp
+L VHF_PowerMeter-rescue:VCC-power #PWR018
+U 1 1 5BECBE57
+P 7350 5250
+F 0 "#PWR018" H 7350 5100 50  0001 C CNN
+F 1 "VCC" H 7367 5423 50  0000 C CNN
+F 2 "" H 7350 5250 50  0001 C CNN
+F 3 "" H 7350 5250 50  0001 C CNN
+	1    7350 5250
+	1    0    0    -1  
+$EndComp
+$Comp
+L VHF_PowerMeter-rescue:Ferrite_Bead_Small-Device FB3
+U 1 1 5BEF3620
+P 9300 3300
+F 0 "FB3" H 9400 3346 50  0000 L CNN
+F 1 "Ferrite_Bead_Small" H 9400 3255 50  0000 L CNN
+F 2 "Inductor_SMD:L_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 9230 3300 50  0001 C CNN
+F 3 "~" H 9300 3300 50  0001 C CNN
+	1    9300 3300
+	1    0    0    -1  
+$EndComp
+$Comp
+L VHF_PowerMeter-rescue:Ferrite_Bead_Small-Device FB4
+U 1 1 5BEF3627
+P 9300 3550
+F 0 "FB4" H 9400 3596 50  0000 L CNN
+F 1 "Ferrite_Bead_Small" H 9400 3505 50  0000 L CNN
+F 2 "Inductor_SMD:L_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 9230 3550 50  0001 C CNN
+F 3 "~" H 9300 3550 50  0001 C CNN
+	1    9300 3550
+	1    0    0    -1  
+$EndComp
+$Comp
+L VHF_PowerMeter-rescue:C_Small-Device C18
+U 1 1 5BEF362E
+P 9500 3550
+F 0 "C18" H 9592 3596 50  0000 L CNN
+F 1 "C_Small" H 9592 3505 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 9500 3550 50  0001 C CNN
+F 3 "~" H 9500 3550 50  0001 C CNN
+	1    9500 3550
+	1    0    0    -1  
+$EndComp
+$Comp
+L VHF_PowerMeter-rescue:GND-power #PWR032
+U 1 1 5BEF3635
+P 9500 3650
+F 0 "#PWR032" H 9500 3400 50  0001 C CNN
+F 1 "GND" H 9505 3477 50  0000 C CNN
+F 2 "" H 9500 3650 50  0001 C CNN
+F 3 "" H 9500 3650 50  0001 C CNN
+	1    9500 3650
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9300 3650 9300 3750
+Wire Wire Line
+	9300 3450 9300 3400
+Wire Wire Line
+	9500 3450 9300 3450
+$Comp
+L VHF_PowerMeter-rescue:VCC-power #PWR029
+U 1 1 5BEF3641
+P 9300 3200
+F 0 "#PWR029" H 9300 3050 50  0001 C CNN
+F 1 "VCC" H 9317 3373 50  0000 C CNN
+F 2 "" H 9300 3200 50  0001 C CNN
+F 3 "" H 9300 3200 50  0001 C CNN
+	1    9300 3200
+	1    0    0    -1  
+$EndComp
+$Comp
+L VHF_PowerMeter-rescue:C_Small-Device C16
+U 1 1 5BEF3D42
+P 9300 3850
+F 0 "C16" H 9392 3896 50  0000 L CNN
+F 1 "C_Small" H 9392 3805 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 9300 3850 50  0001 C CNN
+F 3 "~" H 9300 3850 50  0001 C CNN
+	1    9300 3850
+	1    0    0    -1  
+$EndComp
+$Comp
+L VHF_PowerMeter-rescue:GND-power #PWR030
+U 1 1 5BEF3DB6
+P 9300 3950
+F 0 "#PWR030" H 9300 3700 50  0001 C CNN
+F 1 "GND" H 9305 3777 50  0000 C CNN
+F 2 "" H 9300 3950 50  0001 C CNN
+F 3 "" H 9300 3950 50  0001 C CNN
+	1    9300 3950
+	1    0    0    -1  
+$EndComp
+$Comp
+L VHF_PowerMeter-rescue:C_Small-Device C7
+U 1 1 5BEF4CFC
+P 7000 4250
+F 0 "C7" H 7092 4296 50  0000 L CNN
+F 1 "C_Small" H 7092 4205 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 7000 4250 50  0001 C CNN
+F 3 "~" H 7000 4250 50  0001 C CNN
+	1    7000 4250
+	0    -1   -1   0   
+$EndComp
+$Comp
+L VHF_PowerMeter-rescue:AD8318ACPZ-REEL7-SamacSys_Parts IC2
+U 1 1 5BEF4DB7
+P 8400 4550
+F 0 "IC2" H 9050 3485 50  0000 C CNN
+F 1 "AD8318ACPZ-REEL7" H 9050 3576 50  0000 C CNN
+F 2 "Package_CSP:LFCSP-16-1EP_4x4mm_P0.65mm_EP2.1x2.1mm" H 9550 4650 50  0001 L CNN
+F 3 "https://componentsearchengine.com/Datasheets/1/AD8318ACPZ-REEL7.pdf" H 9550 4550 50  0001 L CNN
+F 4 "Logarithmic Detector/Controller" H 9550 4450 50  0001 L CNN "Description"
+F 5 "584-AD8318ACPZ-R7" H 9550 4250 50  0001 L CNN "Mouser Part Number"
+F 6 "Analog Devices" H 9550 4150 50  0001 L CNN "Manufacturer_Name"
+F 7 "AD8318ACPZ-REEL7" H 9550 4050 50  0001 L CNN "Manufacturer_Part_Number"
+	1    8400 4550
+	-1   0    0    1   
+$EndComp
+$Comp
+L VHF_PowerMeter-rescue:C_Small-Device C8
+U 1 1 5BEF9389
+P 7000 4350
+F 0 "C8" H 7092 4396 50  0000 L CNN
+F 1 "C_Small" H 7092 4305 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 7000 4350 50  0001 C CNN
+F 3 "~" H 7000 4350 50  0001 C CNN
+	1    7000 4350
+	0    -1   -1   0   
+$EndComp
+Connection ~ 9300 3750
+$Comp
+L VHF_PowerMeter-rescue:GND-power #PWR020
+U 1 1 5BEFB1C0
+P 8400 3850
+F 0 "#PWR020" H 8400 3600 50  0001 C CNN
+F 1 "GND" H 8405 3677 50  0000 C CNN
+F 2 "" H 8400 3850 50  0001 C CNN
+F 3 "" H 8400 3850 50  0001 C CNN
+	1    8400 3850
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	8400 3950 9200 3950
+Wire Wire Line
+	9200 3950 9200 4050
+Wire Wire Line
+	9200 4050 8400 4050
+Wire Wire Line
+	8400 4450 8600 4450
+Wire Wire Line
+	8600 4450 8600 4550
+Wire Wire Line
+	8600 4550 8400 4550
+$Comp
+L VHF_PowerMeter-rescue:GND-power #PWR024
+U 1 1 5BEFF438
+P 8600 4550
+F 0 "#PWR024" H 8600 4300 50  0001 C CNN
+F 1 "GND" H 8605 4377 50  0000 C CNN
+F 2 "" H 8600 4550 50  0001 C CNN
+F 3 "" H 8600 4550 50  0001 C CNN
+	1    8600 4550
+	1    0    0    -1  
+$EndComp
+Connection ~ 8600 4550
+Wire Wire Line
+	7100 3950 7000 3950
+Wire Wire Line
+	7000 3950 7000 4050
+Wire Wire Line
+	7000 4050 7100 4050
+$Comp
+L VHF_PowerMeter-rescue:GND-power #PWR014
+U 1 1 5BF00894
+P 7000 3950
+F 0 "#PWR014" H 7000 3700 50  0001 C CNN
+F 1 "GND" H 7005 3777 50  0000 C CNN
+F 2 "" H 7000 3950 50  0001 C CNN
+F 3 "" H 7000 3950 50  0001 C CNN
+	1    7000 3950
+	0    1    1    0   
+$EndComp
+Connection ~ 7000 3950
+$Comp
+L VHF_PowerMeter-rescue:R_Small-Device R12
+U 1 1 5BF00959
+P 7000 3850
+F 0 "R12" V 7196 3850 50  0000 C CNN
+F 1 "R_Small" V 7105 3850 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 7000 3850 50  0001 C CNN
+F 3 "~" H 7000 3850 50  0001 C CNN
+	1    7000 3850
+	0    -1   -1   0   
+$EndComp
+$Comp
+L VHF_PowerMeter-rescue:GND-power #PWR013
+U 1 1 5BF00A4D
+P 6900 3850
+F 0 "#PWR013" H 6900 3600 50  0001 C CNN
+F 1 "GND" H 6905 3677 50  0000 C CNN
+F 2 "" H 6900 3850 50  0001 C CNN
+F 3 "" H 6900 3850 50  0001 C CNN
+	1    6900 3850
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	8400 4350 8700 4350
+Wire Wire Line
+	8700 4350 8700 4250
+Wire Wire Line
+	8700 4250 8400 4250
+Wire Wire Line
+	7100 4450 6950 4450
+Wire Wire Line
+	6950 4450 6950 4900
+Wire Wire Line
+	6950 4900 8700 4900
+Wire Wire Line
+	8700 4900 8700 4350
+Connection ~ 8700 4350
+$Comp
+L VHF_PowerMeter-rescue:C_Small-Device C13
+U 1 1 5BF04EAA
+P 8800 4350
+F 0 "C13" H 8892 4396 50  0000 L CNN
+F 1 "C_Small" H 8892 4305 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 8800 4350 50  0001 C CNN
+F 3 "~" H 8800 4350 50  0001 C CNN
+	1    8800 4350
+	0    1    1    0   
+$EndComp
+$Comp
+L VHF_PowerMeter-rescue:GND-power #PWR025
+U 1 1 5BF04F96
+P 8900 4350
+F 0 "#PWR025" H 8900 4100 50  0001 C CNN
+F 1 "GND" H 8905 4177 50  0000 C CNN
+F 2 "" H 8900 4350 50  0001 C CNN
+F 3 "" H 8900 4350 50  0001 C CNN
+	1    8900 4350
+	0    -1   -1   0   
+$EndComp
+$Comp
+L VHF_PowerMeter-rescue:C_Small-Device C12
+U 1 1 5BF05046
+P 8500 4150
+F 0 "C12" H 8592 4196 50  0000 L CNN
+F 1 "C_Small" H 8592 4105 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 8500 4150 50  0001 C CNN
+F 3 "~" H 8500 4150 50  0001 C CNN
+	1    8500 4150
+	0    1    1    0   
+$EndComp
+$Comp
+L VHF_PowerMeter-rescue:GND-power #PWR023
+U 1 1 5BF050A6
+P 8600 4150
+F 0 "#PWR023" H 8600 3900 50  0001 C CNN
+F 1 "GND" H 8605 3977 50  0000 C CNN
+F 2 "" H 8600 4150 50  0001 C CNN
+F 3 "" H 8600 4150 50  0001 C CNN
+	1    8600 4150
+	0    -1   -1   0   
+$EndComp
+$Comp
+L VHF_PowerMeter-rescue:GND-power #PWR017
+U 1 1 5BF088C7
+P 7100 4550
+F 0 "#PWR017" H 7100 4300 50  0001 C CNN
+F 1 "GND" H 7105 4377 50  0000 C CNN
+F 2 "" H 7100 4550 50  0001 C CNN
+F 3 "" H 7100 4550 50  0001 C CNN
+	1    7100 4550
+	0    1    1    0   
+$EndComp
+$Comp
+L VHF_PowerMeter-rescue:R_Small-Device R13
+U 1 1 5BF098AB
+P 8800 4900
+F 0 "R13" V 8996 4900 50  0000 C CNN
+F 1 "R_Small" V 8905 4900 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 8800 4900 50  0001 C CNN
+F 3 "~" H 8800 4900 50  0001 C CNN
+	1    8800 4900
+	0    -1   -1   0   
+$EndComp
+Connection ~ 8700 4900
+$Comp
+L VHF_PowerMeter-rescue:C_Small-Device C14
+U 1 1 5BF09A0C
+P 9000 5000
+F 0 "C14" H 9092 5046 50  0000 L CNN
+F 1 "C_Small" H 9092 4955 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 9000 5000 50  0001 C CNN
+F 3 "~" H 9000 5000 50  0001 C CNN
+	1    9000 5000
+	-1   0    0    1   
+$EndComp
+$Comp
+L VHF_PowerMeter-rescue:GND-power #PWR027
+U 1 1 5BF0DFB3
+P 9000 5100
+F 0 "#PWR027" H 9000 4850 50  0001 C CNN
+F 1 "GND" H 9005 4927 50  0000 C CNN
+F 2 "" H 9000 5100 50  0001 C CNN
+F 3 "" H 9000 5100 50  0001 C CNN
+	1    9000 5100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8900 4900 9000 4900
+$Comp
+L VHF_PowerMeter-rescue:VCC-power #PWR026
+U 1 1 5BF0FF1F
+P 9000 4850
+F 0 "#PWR026" H 9000 4700 50  0001 C CNN
+F 1 "VCC" H 9017 5023 50  0000 C CNN
+F 2 "" H 9000 4850 50  0001 C CNN
+F 3 "" H 9000 4850 50  0001 C CNN
+	1    9000 4850
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9000 4850 9000 4900
+Connection ~ 9000 4900
+$Comp
+L VHF_PowerMeter-rescue:VCC-power #PWR036
+U 1 1 5BF2E140
+P 10250 5000
+F 0 "#PWR036" H 10250 4850 50  0001 C CNN
+F 1 "VCC" H 10267 5173 50  0000 C CNN
+F 2 "" H 10250 5000 50  0001 C CNN
+F 3 "" H 10250 5000 50  0001 C CNN
+	1    10250 5000
+	1    0    0    -1  
+$EndComp
+$Comp
+L VHF_PowerMeter-rescue:GND-power #PWR038
+U 1 1 5BF2E2B3
+P 10600 7600
+F 0 "#PWR038" H 10600 7350 50  0001 C CNN
+F 1 "GND" H 10605 7427 50  0000 C CNN
+F 2 "" H 10600 7600 50  0001 C CNN
+F 3 "" H 10600 7600 50  0001 C CNN
+	1    10600 7600
+	1    0    0    -1  
+$EndComp
+$Comp
+L VHF_PowerMeter-rescue:GND-power #PWR037
+U 1 1 5BF2E372
+P 10500 7600
+F 0 "#PWR037" H 10500 7350 50  0001 C CNN
+F 1 "GND" H 10505 7427 50  0000 C CNN
+F 2 "" H 10500 7600 50  0001 C CNN
+F 3 "" H 10500 7600 50  0001 C CNN
+	1    10500 7600
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9900 6550 9900 6400
+Wire Wire Line
+	9900 6400 10100 6400
+Wire Wire Line
+	8350 6550 9900 6550
+Wire Wire Line
+	9000 6350 9350 6350
+Wire Wire Line
+	9350 6350 9350 6700
+Wire Wire Line
+	9200 4050 9200 6900
+Connection ~ 9200 4050
+$Comp
+L VHF_PowerMeter-rescue:R_Small-Device R10
+U 1 1 5BF5801A
+P 6350 4350
+F 0 "R10" H 6291 4304 50  0000 R CNN
+F 1 "50" H 6291 4395 50  0000 R CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 6350 4350 50  0001 C CNN
+F 3 "~" H 6350 4350 50  0001 C CNN
+	1    6350 4350
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	6900 4350 6700 4350
+$Comp
+L VHF_PowerMeter-rescue:R_Small-Device R11
+U 1 1 5BF60034
+P 6350 6450
+F 0 "R11" H 6291 6404 50  0000 R CNN
+F 1 "50" H 6291 6495 50  0000 R CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 6350 6450 50  0001 C CNN
+F 3 "~" H 6350 6450 50  0001 C CNN
+	1    6350 6450
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	6350 6350 6850 6350
+$Comp
+L VHF_PowerMeter-rescue:GND-power #PWR011
+U 1 1 5BF630DA
+P 6350 6550
+F 0 "#PWR011" H 6350 6300 50  0001 C CNN
+F 1 "GND" V 6355 6422 50  0000 R CNN
+F 2 "" H 6350 6550 50  0001 C CNN
+F 3 "" H 6350 6550 50  0001 C CNN
+	1    6350 6550
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9200 6900 10100 6900
+Connection ~ 9300 3450
+Wire Wire Line
+	8400 3750 9300 3750
+$Comp
+L VHF_PowerMeter-rescue:GND-power #PWR010
+U 1 1 5BF76F55
+P 6350 4600
+F 0 "#PWR010" H 6350 4350 50  0001 C CNN
+F 1 "GND" H 6355 4427 50  0000 C CNN
+F 2 "" H 6350 4600 50  0001 C CNN
+F 3 "" H 6350 4600 50  0001 C CNN
+	1    6350 4600
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6350 4450 6350 4550
+$Comp
+L VHF_PowerMeter-rescue:R_Small-Device R7
+U 1 1 5BF7A2ED
+P 5150 5450
+F 0 "R7" H 5091 5404 50  0000 R CNN
+F 1 "16,67" H 5091 5495 50  0000 R CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 5150 5450 50  0001 C CNN
+F 3 "~" H 5150 5450 50  0001 C CNN
+	1    5150 5450
+	0    -1   -1   0   
+$EndComp
+$Comp
+L VHF_PowerMeter-rescue:R_Small-Device R9
+U 1 1 5BF7A4A1
+P 5450 5700
+F 0 "R9" H 5391 5654 50  0000 R CNN
+F 1 "16,67" H 5391 5745 50  0000 R CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 5450 5700 50  0001 C CNN
+F 3 "~" H 5450 5700 50  0001 C CNN
+	1    5450 5700
+	1    0    0    -1  
+$EndComp
+$Comp
+L VHF_PowerMeter-rescue:R_Small-Device R8
+U 1 1 5BF7A542
+P 5450 5200
+F 0 "R8" H 5391 5154 50  0000 R CNN
+F 1 "16,67" H 5391 5245 50  0000 R CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 5450 5200 50  0001 C CNN
+F 3 "~" H 5450 5200 50  0001 C CNN
+	1    5450 5200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5250 5450 5450 5450
+Wire Wire Line
+	5450 5450 5450 5300
+Wire Wire Line
+	5450 5450 5450 5600
+Connection ~ 5450 5450
+Wire Wire Line
+	5450 5100 5450 4250
+Wire Wire Line
+	4700 6750 6350 6750
+Wire Wire Line
+	6700 4550 6350 4550
+Wire Wire Line
+	6700 4350 6700 4550
+Connection ~ 6350 4550
+Wire Wire Line
+	6350 4550 6350 4600
+Connection ~ 6350 4250
+Wire Wire Line
+	6350 4250 6900 4250
+Wire Wire Line
+	2900 6750 4100 6750
+Wire Wire Line
+	5450 4250 6350 4250
+$Comp
+L VHF_PowerMeter-rescue:R_Small-Device R3
+U 1 1 5BFAAA56
+P 4400 5650
+F 0 "R3" H 4341 5604 50  0000 R CNN
+F 1 "R_Small" H 4341 5695 50  0000 R CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 4400 5650 50  0001 C CNN
+F 3 "~" H 4400 5650 50  0001 C CNN
+	1    4400 5650
+	-1   0    0    1   
+$EndComp
+$Comp
+L VHF_PowerMeter-rescue:R_Small-Device R5
+U 1 1 5BFAAA5D
+P 4600 5450
+F 0 "R5" V 4404 5450 50  0000 C CNN
+F 1 "R_Small" V 4495 5450 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 4600 5450 50  0001 C CNN
+F 3 "~" H 4600 5450 50  0001 C CNN
+	1    4600 5450
+	0    1    1    0   
+$EndComp
+$Comp
+L VHF_PowerMeter-rescue:R_Small-Device R1
+U 1 1 5BFAAA64
+P 4200 5450
+F 0 "R1" V 4004 5450 50  0000 C CNN
+F 1 "R_Small" V 4095 5450 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 4200 5450 50  0001 C CNN
+F 3 "~" H 4200 5450 50  0001 C CNN
+	1    4200 5450
+	0    1    1    0   
+$EndComp
+$Comp
+L VHF_PowerMeter-rescue:GND-power #PWR06
+U 1 1 5BFAAA6B
+P 4400 5750
+F 0 "#PWR06" H 4400 5500 50  0001 C CNN
+F 1 "GND" H 4405 5577 50  0000 C CNN
+F 2 "" H 4400 5750 50  0001 C CNN
+F 3 "" H 4400 5750 50  0001 C CNN
+	1    4400 5750
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4300 5450 4400 5450
+Wire Wire Line
+	4400 5450 4400 5550
+Wire Wire Line
+	4400 5450 4500 5450
+Connection ~ 4400 5450
+Wire Wire Line
+	4700 5450 5050 5450
+Wire Wire Line
+	2900 5450 4100 5450
+Wire Wire Line
+	5450 5800 5450 6350
+Wire Wire Line
+	5450 6350 6350 6350
+Connection ~ 6350 6350
+$Comp
+L VHF_PowerMeter-rescue:C_Small-Device C15
+U 1 1 5BFCC600
+P 9050 6850
+F 0 "C15" H 9142 6896 50  0000 L CNN
+F 1 "C_Small" H 9142 6805 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 9050 6850 50  0001 C CNN
+F 3 "~" H 9050 6850 50  0001 C CNN
+	1    9050 6850
+	-1   0    0    1   
+$EndComp
+$Comp
+L VHF_PowerMeter-rescue:GND-power #PWR028
+U 1 1 5BFCC6C2
+P 9050 6950
+F 0 "#PWR028" H 9050 6700 50  0001 C CNN
+F 1 "GND" V 9055 6822 50  0000 R CNN
+F 2 "" H 9050 6950 50  0001 C CNN
+F 3 "" H 9050 6950 50  0001 C CNN
+	1    9050 6950
+	1    0    0    -1  
+$EndComp
+$Comp
+L VHF_PowerMeter-rescue:C_Small-Device C17
+U 1 1 5BFCE915
+P 9350 7050
+F 0 "C17" H 9442 7096 50  0000 L CNN
+F 1 "C_Small" H 9442 7005 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 9350 7050 50  0001 C CNN
+F 3 "~" H 9350 7050 50  0001 C CNN
+	1    9350 7050
+	-1   0    0    1   
+$EndComp
+$Comp
+L VHF_PowerMeter-rescue:GND-power #PWR031
+U 1 1 5BFCE9B7
+P 9350 7150
+F 0 "#PWR031" H 9350 6900 50  0001 C CNN
+F 1 "GND" V 9355 7022 50  0000 R CNN
+F 2 "" H 9350 7150 50  0001 C CNN
+F 3 "" H 9350 7150 50  0001 C CNN
+	1    9350 7150
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9350 6950 9350 6700
+Connection ~ 9350 6700
+Wire Wire Line
+	9350 6700 10100 6700
+Wire Wire Line
+	9000 6750 9050 6750
+Wire Wire Line
+	9050 6750 9950 6750
+Wire Wire Line
+	9950 6750 9950 6800
+Wire Wire Line
+	9950 6800 10100 6800
+Connection ~ 9050 6750
+$Comp
+L VHF_PowerMeter-rescue:Rotary_Encoder_Switch-Device SW1
+U 1 1 5C047E65
+P 12000 5100
+F 0 "SW1" H 12000 5467 50  0000 C CNN
+F 1 "Rotary_Encoder_Switch" H 12000 5376 50  0000 C CNN
+F 2 "Rotary_Encoder:RotaryEncoder_Alps_EC11E-Switch_Vertical_H20mm" H 11850 5260 50  0001 C CNN
+F 3 "~" H 12000 5360 50  0001 C CNN
+	1    12000 5100
+	1    0    0    -1  
+$EndComp
+$Comp
+L VHF_PowerMeter-rescue:WC1602A-Display_Character DS1
+U 1 1 5C048041
+P 14450 6600
+F 0 "DS1" H 14050 7500 50  0000 C CNN
+F 1 "WC1602A" H 14150 7400 50  0000 C CNN
+F 2 "Display:WC1602A" H 14450 5700 50  0001 C CIN
+F 3 "http://www.wincomlcd.com/pdf/WC1602A-SFYLYHTC06.pdf" H 15150 6600 50  0001 C CNN
+	1    14450 6600
+	1    0    0    -1  
+$EndComp
+$Comp
+L VHF_PowerMeter-rescue:R_POT-Device RV1
+U 1 1 5C04A6F3
+P 15800 6000
+F 0 "RV1" H 15730 6046 50  0000 R CNN
+F 1 "R_POT" H 15730 5955 50  0000 R CNN
+F 2 "Potentiometer_THT:Potentiometer_ACP_CA14V-15_Vertical_Hole" H 15800 6000 50  0001 C CNN
+F 3 "~" H 15800 6000 50  0001 C CNN
+	1    15800 6000
+	-1   0    0    -1  
+$EndComp
+$Comp
+L VHF_PowerMeter-rescue:GND-power #PWR047
+U 1 1 5C04A817
+P 13600 6150
+F 0 "#PWR047" H 13600 5900 50  0001 C CNN
+F 1 "GND" H 13605 5977 50  0000 C CNN
+F 2 "" H 13600 6150 50  0001 C CNN
+F 3 "" H 13600 6150 50  0001 C CNN
+	1    13600 6150
+	1    0    0    -1  
+$EndComp
+$Comp
+L VHF_PowerMeter-rescue:VCC-power #PWR053
+U 1 1 5C04A8AC
+P 15800 5850
+F 0 "#PWR053" H 15800 5700 50  0001 C CNN
+F 1 "VCC" H 15817 6023 50  0000 C CNN
+F 2 "" H 15800 5850 50  0001 C CNN
+F 3 "" H 15800 5850 50  0001 C CNN
+	1    15800 5850
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	14850 6000 15650 6000
+$Comp
+L VHF_PowerMeter-rescue:GND-power #PWR049
+U 1 1 5C055250
+P 14450 7400
+F 0 "#PWR049" H 14450 7150 50  0001 C CNN
+F 1 "GND" H 14455 7227 50  0000 C CNN
+F 2 "" H 14450 7400 50  0001 C CNN
+F 3 "" H 14450 7400 50  0001 C CNN
+	1    14450 7400
+	1    0    0    -1  
+$EndComp
+$Comp
+L VHF_PowerMeter-rescue:VCC-power #PWR048
+U 1 1 5C055341
+P 14450 5200
+F 0 "#PWR048" H 14450 5050 50  0001 C CNN
+F 1 "VCC" H 14467 5373 50  0000 C CNN
+F 2 "" H 14450 5200 50  0001 C CNN
+F 3 "" H 14450 5200 50  0001 C CNN
+	1    14450 5200
+	1    0    0    -1  
+$EndComp
+$Comp
+L VHF_PowerMeter-rescue:C_Small-Device C21
+U 1 1 5C0558C2
+P 14550 5700
+F 0 "C21" H 14642 5746 50  0000 L CNN
+F 1 "C_Small" H 14642 5655 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 14550 5700 50  0001 C CNN
+F 3 "~" H 14550 5700 50  0001 C CNN
+	1    14550 5700
+	0    1    1    0   
+$EndComp
+$Comp
+L VHF_PowerMeter-rescue:GND-power #PWR050
+U 1 1 5C055B47
+P 14850 5750
+F 0 "#PWR050" H 14850 5500 50  0001 C CNN
+F 1 "GND" H 14855 5577 50  0000 C CNN
+F 2 "" H 14850 5750 50  0001 C CNN
+F 3 "" H 14850 5750 50  0001 C CNN
+	1    14850 5750
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	14850 5700 14850 5750
+Wire Wire Line
+	14650 5700 14850 5700
+Wire Wire Line
+	14450 5700 14450 5800
+$Comp
+L VHF_PowerMeter-rescue:R_Small-Device R19
+U 1 1 5C064F78
+P 15100 6300
+F 0 "R19" V 15296 6300 50  0000 C CNN
+F 1 "R_Small" V 15205 6300 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 15100 6300 50  0001 C CNN
+F 3 "~" H 15100 6300 50  0001 C CNN
+	1    15100 6300
+	0    -1   -1   0   
+$EndComp
+$Comp
+L VHF_PowerMeter-rescue:GND-power #PWR051
+U 1 1 5C065108
+P 15150 6400
+F 0 "#PWR051" H 15150 6150 50  0001 C CNN
+F 1 "GND" H 15155 6227 50  0000 C CNN
+F 2 "" H 15150 6400 50  0001 C CNN
+F 3 "" H 15150 6400 50  0001 C CNN
+	1    15150 6400
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	14850 6400 15150 6400
+$Comp
+L VHF_PowerMeter-rescue:VCC-power #PWR052
+U 1 1 5C072B67
+P 15450 6300
+F 0 "#PWR052" H 15450 6150 50  0001 C CNN
+F 1 "VCC" H 15467 6473 50  0000 C CNN
+F 2 "" H 15450 6300 50  0001 C CNN
+F 3 "" H 15450 6300 50  0001 C CNN
+	1    15450 6300
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	15200 6300 15450 6300
+Wire Wire Line
+	15000 6300 14850 6300
+Wire Wire Line
+	14050 6100 13600 6100
+Wire Wire Line
+	13600 6100 13600 6150
+Wire Wire Line
+	14050 6000 11800 6000
+Wire Wire Line
+	11800 6000 11800 7100
+Wire Wire Line
+	11800 7100 11100 7100
+Wire Wire Line
+	11100 6900 14050 6900
+Wire Wire Line
+	14050 7000 12650 7000
+Wire Wire Line
+	12650 7000 12650 6800
+Wire Wire Line
+	12650 6800 11100 6800
+Wire Wire Line
+	11100 6700 12550 6700
+Wire Wire Line
+	12550 6700 12550 7100
+Wire Wire Line
+	12550 7100 14050 7100
+Wire Wire Line
+	14050 7200 12450 7200
+Wire Wire Line
+	12450 7200 12450 6600
+Wire Wire Line
+	12450 6600 11100 6600
+Wire Wire Line
+	14050 6200 13850 6200
+Wire Wire Line
+	13850 6200 13850 6450
+Wire Wire Line
+	13850 6450 11950 6450
+Wire Wire Line
+	11950 6450 11950 7200
+Wire Wire Line
+	11950 7200 11100 7200
+$Comp
+L VHF_PowerMeter-rescue:Conn_01x04_Male-Connector J4
+U 1 1 5C093C5D
+P 10650 8450
+F 0 "J4" H 10623 8330 50  0000 R CNN
+F 1 "Conn_01x04_Male" H 10623 8421 50  0000 R CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical" H 10650 8450 50  0001 C CNN
+F 3 "~" H 10650 8450 50  0001 C CNN
+	1    10650 8450
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	10100 7100 9800 7100
+Wire Wire Line
+	9800 7100 9800 8350
+Wire Wire Line
+	9800 8350 10450 8350
+Wire Wire Line
+	10100 7000 9700 7000
+Wire Wire Line
+	9700 7000 9700 8450
+Wire Wire Line
+	9700 8450 10450 8450
+$Comp
+L VHF_PowerMeter-rescue:VCC-power #PWR033
+U 1 1 5C09B0D4
+P 10000 7850
+F 0 "#PWR033" H 10000 7700 50  0001 C CNN
+F 1 "VCC" H 10017 8023 50  0000 C CNN
+F 2 "" H 10000 7850 50  0001 C CNN
+F 3 "" H 10000 7850 50  0001 C CNN
+	1    10000 7850
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	10350 8250 10450 8250
+$Comp
+L VHF_PowerMeter-rescue:GND-power #PWR035
+U 1 1 5C09ED9A
+P 10350 8650
+F 0 "#PWR035" H 10350 8400 50  0001 C CNN
+F 1 "GND" H 10355 8477 50  0000 C CNN
+F 2 "" H 10350 8650 50  0001 C CNN
+F 3 "" H 10350 8650 50  0001 C CNN
+	1    10350 8650
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	10450 8550 10350 8550
+Wire Wire Line
+	10350 8550 10350 8650
+$Comp
+L VHF_PowerMeter-rescue:Ferrite_Bead_Small-Device FB5
+U 1 1 5C0A2D11
+P 10000 7950
+F 0 "FB5" H 10100 7996 50  0000 L CNN
+F 1 "Ferrite_Bead_Small" H 10100 7905 50  0000 L CNN
+F 2 "Inductor_SMD:L_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 9930 7950 50  0001 C CNN
+F 3 "~" H 10000 7950 50  0001 C CNN
+	1    10000 7950
+	1    0    0    -1  
+$EndComp
+$Comp
+L VHF_PowerMeter-rescue:C_Small-Device C19
+U 1 1 5C0A3015
+P 10000 8150
+F 0 "C19" H 10092 8196 50  0000 L CNN
+F 1 "C_Small" H 10092 8105 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 10000 8150 50  0001 C CNN
+F 3 "~" H 10000 8150 50  0001 C CNN
+	1    10000 8150
+	1    0    0    -1  
+$EndComp
+$Comp
+L VHF_PowerMeter-rescue:GND-power #PWR034
+U 1 1 5C0AEDD5
+P 10000 8250
+F 0 "#PWR034" H 10000 8000 50  0001 C CNN
+F 1 "GND" H 10005 8077 50  0000 C CNN
+F 2 "" H 10000 8250 50  0001 C CNN
+F 3 "" H 10000 8250 50  0001 C CNN
+	1    10000 8250
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	10350 8050 10000 8050
+Wire Wire Line
+	10350 8050 10350 8250
+Connection ~ 10000 8050
+$Comp
+L VHF_PowerMeter-rescue:Ferrite_Bead_Small-Device FB7
+U 1 1 5C0B30CE
+P 14450 5450
+F 0 "FB7" H 14550 5496 50  0000 L CNN
+F 1 "Ferrite_Bead_Small" H 14550 5405 50  0000 L CNN
+F 2 "Inductor_SMD:L_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 14380 5450 50  0001 C CNN
+F 3 "~" H 14450 5450 50  0001 C CNN
+	1    14450 5450
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	14450 5200 14450 5350
+Wire Wire Line
+	14450 5550 14450 5700
+Connection ~ 14450 5700
+$Comp
+L VHF_PowerMeter-rescue:GND-power #PWR054
+U 1 1 5C0C7281
+P 15800 6150
+F 0 "#PWR054" H 15800 5900 50  0001 C CNN
+F 1 "GND" H 15805 5977 50  0000 C CNN
+F 2 "" H 15800 6150 50  0001 C CNN
+F 3 "" H 15800 6150 50  0001 C CNN
+	1    15800 6150
+	1    0    0    -1  
+$EndComp
+$Comp
+L VHF_PowerMeter-rescue:R_Small-Device R16
+U 1 1 5C0C75CC
+P 11500 5000
+F 0 "R16" V 11696 5000 50  0000 C CNN
+F 1 "R_Small" V 11605 5000 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 11500 5000 50  0001 C CNN
+F 3 "~" H 11500 5000 50  0001 C CNN
+	1    11500 5000
+	0    1    1    0   
+$EndComp
+$Comp
+L VHF_PowerMeter-rescue:R_Small-Device R17
+U 1 1 5C0C78DC
+P 11500 5200
+F 0 "R17" V 11696 5200 50  0000 C CNN
+F 1 "R_Small" V 11605 5200 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 11500 5200 50  0001 C CNN
+F 3 "~" H 11500 5200 50  0001 C CNN
+	1    11500 5200
+	0    1    1    0   
+$EndComp
+$Comp
+L VHF_PowerMeter-rescue:R_Small-Device R18
+U 1 1 5C0C795E
+P 12500 5000
+F 0 "R18" V 12696 5000 50  0000 C CNN
+F 1 "R_Small" V 12605 5000 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 12500 5000 50  0001 C CNN
+F 3 "~" H 12500 5000 50  0001 C CNN
+	1    12500 5000
+	0    1    1    0   
+$EndComp
+$Comp
+L VHF_PowerMeter-rescue:GND-power #PWR044
+U 1 1 5C0C7D8D
+P 11700 5100
+F 0 "#PWR044" H 11700 4850 50  0001 C CNN
+F 1 "GND" H 11705 4927 50  0000 C CNN
+F 2 "" H 11700 5100 50  0001 C CNN
+F 3 "" H 11700 5100 50  0001 C CNN
+	1    11700 5100
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	11700 5200 11650 5200
+$Comp
+L VHF_PowerMeter-rescue:VCC-power #PWR041
+U 1 1 5C0D025D
+P 11400 5000
+F 0 "#PWR041" H 11400 4850 50  0001 C CNN
+F 1 "VCC" H 11417 5173 50  0000 C CNN
+F 2 "" H 11400 5000 50  0001 C CNN
+F 3 "" H 11400 5000 50  0001 C CNN
+	1    11400 5000
+	0    -1   -1   0   
+$EndComp
+$Comp
+L VHF_PowerMeter-rescue:VCC-power #PWR042
+U 1 1 5C0D03E9
+P 11400 5200
+F 0 "#PWR042" H 11400 5050 50  0001 C CNN
+F 1 "VCC" H 11417 5373 50  0000 C CNN
+F 2 "" H 11400 5200 50  0001 C CNN
+F 3 "" H 11400 5200 50  0001 C CNN
+	1    11400 5200
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	11650 6200 11100 6200
+Wire Wire Line
+	11700 6300 11100 6300
+$Comp
+L VHF_PowerMeter-rescue:Conn_01x04_Male-Connector J5
+U 1 1 5C0D9E18
+P 11650 4300
+F 0 "J5" H 11623 4180 50  0000 R CNN
+F 1 "Conn_01x04_Male" H 11623 4271 50  0000 R CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical" H 11650 4300 50  0001 C CNN
+F 3 "~" H 11650 4300 50  0001 C CNN
+	1    11650 4300
+	-1   0    0    1   
+$EndComp
+$Comp
+L VHF_PowerMeter-rescue:Ferrite_Bead_Small-Device FB6
+U 1 1 5C0D9F50
+P 11350 3800
+F 0 "FB6" H 11450 3846 50  0000 L CNN
+F 1 "Ferrite_Bead_Small" H 11450 3755 50  0000 L CNN
+F 2 "Inductor_SMD:L_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 11280 3800 50  0001 C CNN
+F 3 "~" H 11350 3800 50  0001 C CNN
+	1    11350 3800
+	1    0    0    -1  
+$EndComp
+$Comp
+L VHF_PowerMeter-rescue:C_Small-Device C20
+U 1 1 5C0DA0CC
+P 11350 4000
+F 0 "C20" H 11442 4046 50  0000 L CNN
+F 1 "C_Small" H 11442 3955 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 11350 4000 50  0001 C CNN
+F 3 "~" H 11350 4000 50  0001 C CNN
+	1    11350 4000
+	1    0    0    -1  
+$EndComp
+$Comp
+L VHF_PowerMeter-rescue:GND-power #PWR039
+U 1 1 5C0DA168
+P 11350 4100
+F 0 "#PWR039" H 11350 3850 50  0001 C CNN
+F 1 "GND" H 11355 3927 50  0000 C CNN
+F 2 "" H 11350 4100 50  0001 C CNN
+F 3 "" H 11350 4100 50  0001 C CNN
+	1    11350 4100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	11350 3900 11450 3900
+Wire Wire Line
+	11450 3900 11450 4100
+Connection ~ 11350 3900
+$Comp
+L VHF_PowerMeter-rescue:GND-power #PWR040
+U 1 1 5C0DEABD
+P 11350 4400
+F 0 "#PWR040" H 11350 4150 50  0001 C CNN
+F 1 "GND" H 11355 4227 50  0000 C CNN
+F 2 "" H 11350 4400 50  0001 C CNN
+F 3 "" H 11350 4400 50  0001 C CNN
+	1    11350 4400
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	11450 4400 11350 4400
+Wire Wire Line
+	11100 6000 11150 6000
+Wire Wire Line
+	11150 4200 11450 4200
+Wire Wire Line
+	11450 4300 11250 4300
+Wire Wire Line
+	11250 6100 11100 6100
+Wire Wire Line
+	11250 4300 11250 6100
+$Comp
+L VHF_PowerMeter-rescue:VCC-power #PWR046
+U 1 1 5C1177C3
+P 12600 5000
+F 0 "#PWR046" H 12600 4850 50  0001 C CNN
+F 1 "VCC" H 12617 5173 50  0000 C CNN
+F 2 "" H 12600 5000 50  0001 C CNN
+F 3 "" H 12600 5000 50  0001 C CNN
+	1    12600 5000
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	12300 5000 12350 5000
+Wire Wire Line
+	11150 4200 11150 6000
+$Comp
+L VHF_PowerMeter-rescue:GND-power #PWR045
+U 1 1 5C11CA68
+P 12500 5200
+F 0 "#PWR045" H 12500 4950 50  0001 C CNN
+F 1 "GND" H 12505 5027 50  0000 C CNN
+F 2 "" H 12500 5200 50  0001 C CNN
+F 3 "" H 12500 5200 50  0001 C CNN
+	1    12500 5200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	12300 5200 12500 5200
+Wire Wire Line
+	12350 5000 12350 6400
+Wire Wire Line
+	12350 6400 11100 6400
+Connection ~ 12350 5000
+Wire Wire Line
+	12350 5000 12400 5000
+$Comp
+L VHF_PowerMeter-rescue:USB_B_Mini-Connector J3
+U 1 1 5C133688
+P 2850 4100
+F 0 "J3" H 2905 4567 50  0000 C CNN
+F 1 "USB_B_Mini" H 2905 4476 50  0000 C CNN
+F 2 "Connector_USB:USB_Mini-B_Lumberg_2486_01_Horizontal" H 3000 4050 50  0001 C CNN
+F 3 "~" H 3000 4050 50  0001 C CNN
+	1    2850 4100
+	1    0    0    -1  
+$EndComp
+$Comp
+L VHF_PowerMeter-rescue:GND-power #PWR03
+U 1 1 5C133BAC
+P 2750 4500
+F 0 "#PWR03" H 2750 4250 50  0001 C CNN
+F 1 "GND" H 2755 4327 50  0000 C CNN
+F 2 "" H 2750 4500 50  0001 C CNN
+F 3 "" H 2750 4500 50  0001 C CNN
+	1    2750 4500
+	1    0    0    -1  
+$EndComp
+$Comp
+L VHF_PowerMeter-rescue:GND-power #PWR04
+U 1 1 5C133C9B
+P 2850 4500
+F 0 "#PWR04" H 2850 4250 50  0001 C CNN
+F 1 "GND" H 2855 4327 50  0000 C CNN
+F 2 "" H 2850 4500 50  0001 C CNN
+F 3 "" H 2850 4500 50  0001 C CNN
+	1    2850 4500
+	1    0    0    -1  
+$EndComp
+$Comp
+L VHF_PowerMeter-rescue:Polyfuse-Device F1
+U 1 1 5C134070
+P 3600 3900
+F 0 "F1" V 3375 3900 50  0000 C CNN
+F 1 "Polyfuse" V 3466 3900 50  0000 C CNN
+F 2 "Fuse:Fuse_1206_3216Metric_Pad1.42x1.75mm_HandSolder" H 3650 3700 50  0001 L CNN
+F 3 "~" H 3600 3900 50  0001 C CNN
+	1    3600 3900
+	0    1    1    0   
+$EndComp
+$Comp
+L VHF_PowerMeter-rescue:DIODE-pspice D1
+U 1 1 5C13421A
+P 4000 4200
+F 0 "D1" V 4046 4072 50  0000 R CNN
+F 1 "DIODE" V 3955 4072 50  0000 R CNN
+F 2 "Diode_SMD:D_SMC_Handsoldering" H 4000 4200 50  0001 C CNN
+F 3 "~" H 4000 4200 50  0001 C CNN
+	1    4000 4200
+	0    -1   -1   0   
+$EndComp
+$Comp
+L VHF_PowerMeter-rescue:GND-power #PWR05
+U 1 1 5C13436E
+P 4000 4400
+F 0 "#PWR05" H 4000 4150 50  0001 C CNN
+F 1 "GND" H 4005 4227 50  0000 C CNN
+F 2 "" H 4000 4400 50  0001 C CNN
+F 3 "" H 4000 4400 50  0001 C CNN
+	1    4000 4400
+	1    0    0    -1  
+$EndComp
+$Comp
+L VHF_PowerMeter-rescue:CP1_Small-Device C1
+U 1 1 5C1345C7
+P 4550 4200
+F 0 "C1" H 4641 4246 50  0000 L CNN
+F 1 "CP1_Small" H 4641 4155 50  0000 L CNN
+F 2 "Capacitor_SMD:CP_Elec_6.3x7.7" H 4550 4200 50  0001 C CNN
+F 3 "~" H 4550 4200 50  0001 C CNN
+	1    4550 4200
+	1    0    0    -1  
+$EndComp
+$Comp
+L VHF_PowerMeter-rescue:GND-power #PWR09
+U 1 1 5C13467D
+P 4550 4300
+F 0 "#PWR09" H 4550 4050 50  0001 C CNN
+F 1 "GND" H 4555 4127 50  0000 C CNN
+F 2 "" H 4550 4300 50  0001 C CNN
+F 3 "" H 4550 4300 50  0001 C CNN
+	1    4550 4300
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3150 3900 3450 3900
+Wire Wire Line
+	3750 3900 4000 3900
+Wire Wire Line
+	4000 3900 4000 4000
+Wire Wire Line
+	4000 3900 4550 3900
+Wire Wire Line
+	4550 3900 4550 4100
+Connection ~ 4000 3900
+Wire Wire Line
+	3150 4100 3300 4100
+Wire Wire Line
+	3300 4100 3300 4200
+Wire Wire Line
+	3300 4200 3150 4200
+$Comp
+L VHF_PowerMeter-rescue:VCC-power #PWR08
+U 1 1 5C14C1E9
+P 4550 3900
+F 0 "#PWR08" H 4550 3750 50  0001 C CNN
+F 1 "VCC" H 4567 4073 50  0000 C CNN
+F 2 "" H 4550 3900 50  0001 C CNN
+F 3 "" H 4550 3900 50  0001 C CNN
+	1    4550 3900
+	1    0    0    -1  
+$EndComp
+Connection ~ 4550 3900
+$Comp
+L VHF_PowerMeter-rescue:R_Small-Device R20
+U 1 1 5C44E1E3
+P 6350 6850
+F 0 "R20" H 6291 6804 50  0000 R CNN
+F 1 "50" H 6291 6895 50  0000 R CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 6350 6850 50  0001 C CNN
+F 3 "~" H 6350 6850 50  0001 C CNN
+	1    6350 6850
+	-1   0    0    1   
+$EndComp
+Connection ~ 6350 6750
+Wire Wire Line
+	6350 6750 6850 6750
+$Comp
+L VHF_PowerMeter-rescue:GND-power #PWR0101
+U 1 1 5C44E342
+P 6350 6950
+F 0 "#PWR0101" H 6350 6700 50  0001 C CNN
+F 1 "GND" V 6355 6822 50  0000 R CNN
+F 2 "" H 6350 6950 50  0001 C CNN
+F 3 "" H 6350 6950 50  0001 C CNN
+	1    6350 6950
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	11650 6200 11650 5200
+Connection ~ 11650 5200
+Wire Wire Line
+	11650 5200 11600 5200
+$Comp
+L VHF_PowerMeter-rescue:Ferrite_Bead_Small-Device FB8
+U 1 1 5C47CC8C
+P 10250 5100
+F 0 "FB8" H 10350 5146 50  0000 L CNN
+F 1 "Ferrite_Bead_Small" H 10350 5055 50  0000 L CNN
+F 2 "Inductor_SMD:L_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 10180 5100 50  0001 C CNN
+F 3 "~" H 10250 5100 50  0001 C CNN
+	1    10250 5100
+	1    0    0    -1  
+$EndComp
+$Comp
+L VHF_PowerMeter-rescue:C_Small-Device C22
+U 1 1 5C47CD2E
+P 10250 5300
+F 0 "C22" H 10342 5346 50  0000 L CNN
+F 1 "C_Small" H 10342 5255 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 10250 5300 50  0001 C CNN
+F 3 "~" H 10250 5300 50  0001 C CNN
+	1    10250 5300
+	1    0    0    -1  
+$EndComp
+$Comp
+L VHF_PowerMeter-rescue:GND-power #PWR0102
+U 1 1 5C47CDD4
+P 10250 5400
+F 0 "#PWR0102" H 10250 5150 50  0001 C CNN
+F 1 "GND" H 10255 5227 50  0000 C CNN
+F 2 "" H 10250 5400 50  0001 C CNN
+F 3 "" H 10250 5400 50  0001 C CNN
+	1    10250 5400
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	10250 5200 10400 5200
+Wire Wire Line
+	10400 5200 10400 5600
+Connection ~ 10250 5200
+Wire Wire Line
+	11600 5000 11650 5000
+Wire Wire Line
+	11650 4750 11950 4750
+Wire Wire Line
+	11950 4750 11950 5750
+Wire Wire Line
+	11950 5750 11700 5750
+Wire Wire Line
+	11700 5750 11700 6300
+Wire Wire Line
+	11650 4750 11650 5000
+Connection ~ 11650 5000
+Wire Wire Line
+	11650 5000 11700 5000
+$Comp
+L VHF_PowerMeter-rescue:VCC-power #PWR?
+U 1 1 5C49998A
+P 11350 3700
+F 0 "#PWR?" H 11350 3550 50  0001 C CNN
+F 1 "VCC" H 11367 3873 50  0000 C CNN
+F 2 "" H 11350 3700 50  0001 C CNN
+F 3 "" H 11350 3700 50  0001 C CNN
+	1    11350 3700
+	1    0    0    -1  
+$EndComp
+$EndSCHEMATC
